@@ -5,13 +5,11 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
-	--black: 15, 18, 25;
-	--gray: 96, 115, 159;
-	--gray-light: 229, 233, 240;
-	--gray-dark: 34, 41, 57;
-	--gray-gradient: rgba(var(--gray-light), 50%), #e3e3e3;
+	--accent: #f38181;
+	--accent-dark: #756c83;
+	--black: #000000;
+	--white: #fbfbfb;
+	--teal: #b9e1dc;
 	--box-shadow:
 		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
 		0 16px 32px rgba(var(--gray), 33%);
@@ -21,10 +19,10 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	background-color: #233142;
+	background-color: var(--white);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: rgb(var(--gray-dark));
+	color: var(--black);
 	font-size: 20px;
 	line-height: 1.7;
 }
